@@ -8,7 +8,8 @@ You pick a city, a month (or all of them) and a day of the week (or all of them)
 - the most common month, day of the week and start hour;
 - the most used start station, end station and start-to-end trip;
 - the total and the average trip duration;
-- the counts of user types, and for Chicago and New York City (the two files that have them) gender and birth year.
+- for Chicago and New York City: the counts of user types and gender, and the earliest, latest and most common birth year
+  (Washington's file has no gender or birth year, and the script skips this part there).
 
 ## Run it
 Python 3 with pandas and NumPy, the three CSV files in the same folder:
